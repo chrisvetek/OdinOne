@@ -1,20 +1,11 @@
-.header {
-    font: Roboto;
-    color: white;
-    background-color: #1F2937;
+ul {
+    list-style-type: none;
+    padding: 2px;
+    display: flex;
+    float:right;
 }
-.footer {
-    font: Roboto;
-    color: white;
-    background-color: #1F2937;
-}
-.section-one{
-    background-color: white;
-}
-.section-two{
-    background-color: white;
-}
-.section-three{
-    background-color: #E5E7EB;
-    font-style: 36px light italic #1F2937;
+li{
+    display: inline;
+    margin: 2px
+    font-size: 18px;
 }
