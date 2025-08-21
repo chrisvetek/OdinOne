@@ -1,3 +1,7 @@
+.hlogo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
 ul {
     list-style-type: none;
     padding: 2px;
@@ -9,4 +13,34 @@ li{
     margin: 2px;
     font-size: 18px;
     color: #E5E7EB;
+}
+.top{
+    display: flex;
+    background-color: #1F2937;
+    width: 100;
+    margin: 0;
+    padding: 0;
+}
+.div1 {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+.div3 {
+    display: flex;
+    background-color: #E5E7EB;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.ftr{
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
