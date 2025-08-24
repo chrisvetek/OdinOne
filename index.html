@@ -4,28 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>The Bike Shop</title>
 </head>
 <body>
     <div class="dark-bg">
-        <ul>
-            <div>
+        <ul id="header_ul">
+                <li class="header_li">Home</li>
+                <li class="header_li">More Info</li>
+                <li class="header_li">Contact</li>
                 <li>
-                    <img src="images/robert-bye-bike.jpg" alt="Header Logo">
+                   <img  id="header_img" src="images/robert-bye-bike.jpg" alt="Header Logo">
                 </li>
-            </div>
-            <li>Home</li>
-            <li>More Info</li>
-            <li>Contact</li>
         </ul>
     </div>
-    <div class="dark-bg">
-        <ul>
-            <li id="hero_title">I bring you only the best bikes</li>
-            <li id="hero_sub">Sourced from all over the world, refined in my shop by hand.</li>
-            <li><button class="button_header">Sign up</button></li>
-            <li id="hero_img"><img></li>
-        </ul>
+    <div class="hero_div dark-bg">
+        <div>
+            <ul>
+                <li id="hero_title">I bring you only the best bikes</li>
+                <li id="hero_sub">Sourced from all over the world, refined in my shop by hand.</li>
+                <li class="li_button_header"><button class="button_style">Sign up</button></li>
+            </ul>
+        </div>
+        <div>
+            <li id="hero_img"><img src="images/peloton.jpg"></li>
+        </div>
     </div>
     <div>
         <h3 id="info_header">Gallery of Bikes </h3>
@@ -37,7 +42,7 @@
         </ul>
     </div>
     <div id="quote_section">
-        <p>Ride fast, ride slow, important thing is to ride</p>
+        <p id="quote_p">Ride fast, ride slow, important thing is to ride</p>
         <p id="quote_author">-Eddie Merckx</p>
     </div>
     <div>

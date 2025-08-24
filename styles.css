@@ -3,7 +3,24 @@
     flex-direction: column;
     
 }
-
+#header_ul{
+    margin-right: 300px;
+}
+.header_li{
+    display:block;
+    margin: 15px;
+    padding-top: 10px;
+    overflow: hidden;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+}
+#header_img {
+    display:flex;
+    justify-content: left;
+    padding-left: 280px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
 .flex-gallery {
     display:flex;
     flex-direction: row;
@@ -15,19 +32,29 @@
 }
 
 #hero_title {
-    font-size: 48px;
+    font-size: 46px;
     font-weight: 900;
     color: #F9FAF8;
+    display:flex;
+    justify-content: left;
+    padding-left: 280px;
+    padding-top: 50px;
 }
 
 #hero_sub {
     font-size: 18px;
     color: #E5E7EB;
+    display:flex;
+    justify-content: left;
+    padding-left: 280px;
+    padding-bottom: 10px
 }
 
 #hero_img {
-    display:block;
-    margin-left: auto;
+    display:flex;
+    justify-content: right;
+    padding-top: 45px;
+    padding-left: 70px;
 }
 
 #info_header {
@@ -65,7 +92,6 @@
     color: white;
     border-radius: 8px;
     font-size: 9px;
-    padding: 4px;
     width: 60px;
     text-align: center;
 }
@@ -90,32 +116,37 @@
     width: 60px;
     padding: 5px;
 }
-
+#quote_p {
+    font-style: italic;
+}
 #quote_section {
     background-color: #E5E7EB;
-    font-style: light italic;
-    font-size: 36px;
+    
+    font-size: 38px;
     color: #1F2937;
-    padding: 30px;
-    text-align: center
+    padding: 25px;
+    text-align: center;
 }
 .center-p{
     text-align: center;
 }
 
 #quote_author {
-    font-size: 16px;
+    font-size: 18px;
     color: #1F2937;
     text-align: right;
     font-weight: bold;
-    margin-right: 400px
+    margin-right: 370px;
+    margin-top: -30px;
 }
 
 .bike_imgs {
     height: 150px;
     width: 200px;
-    padding: 20px;
-    margin: 20px
+    padding: 5px;
+    margin: 4px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
 }
 
 li {
@@ -130,4 +161,15 @@ li {
     margin-top: 20px;
     width: full;
     margin-bottom: -60px;
+}
+
+.hero_div {
+    height:250px;
+    width: full;
+    display:flex;
+    flex-direction: row;
+    margin-top: -20px;
+}
+.li_button_header {
+    padding-left: 280px;
 }
