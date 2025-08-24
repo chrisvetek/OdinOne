@@ -4,24 +4,130 @@
     
 }
 
+.flex-gallery {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.dark-bg{
+    background-color: #1F2937;
+    color: white;
+}
+
+#hero_title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#hero_sub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#hero_img {
+    display:block;
+    margin-left: auto;
+}
+
+#info_header {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.newsletter_sign_up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px 0px 0px 8px;
+    height: 116px;
+}
+.newsletter_p {
+    font-size: 12px;
+}
+#newsletter_div {
+    display:flex;
+    justify-content: center;
+}
+.newsletter_li {
+    margin-left: 100px;
+    margin-top: -38px;
+    padding-bottom: 20px;
+}
+.newsletter_li_header {
+    font-size: 27px;
+    margin-left: 100px;
+    padding-top: 8px;
+    font-weight: bold;
+}
 .button_header {
-    background-color: cornflowerblue;
+    background-color: #3882F6;
     color: white;
     border-radius: 8px;
     font-size: 9px;
     padding: 4px;
-    font-weight: bold;
     width: 60px;
     text-align: center;
 }
-.button_footer {
-    background-color: cornflowerblue;
+
+.button_footer_div {
+    background-color: #3882F6;
     color: white;
-    border-radius: 8px;
-    font-size: 9px;
-    padding: 4px;
-    font-weight: bold;
-    width: 60px;
+    border-radius: 0px 8px 8px 0px;
+    height: 66px;
+    width:200px;
     text-align: center;
+    margin-top: 16px;
+    padding-top:50px
+    
+}
+.button_style {
+    background-color: #3882F6;
     border-color: #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 4px;
+    font-size: 10px;
+    width: 60px;
+    padding: 5px;
+}
+
+#quote_section {
+    background-color: #E5E7EB;
+    font-style: light italic;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 30px;
+    text-align: center
+}
+.center-p{
+    text-align: center;
+}
+
+#quote_author {
+    font-size: 16px;
+    color: #1F2937;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 400px
+}
+
+.bike_imgs {
+    height: 150px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px
+}
+
+li {
+    list-style-type: none;
+}
+.footer_text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.footer_div {
+    margin-top: 20px;
+    width: full;
+    margin-bottom: -60px;
 }

@@ -7,7 +7,7 @@
     <title>The Bike Shop</title>
 </head>
 <body>
-    <div>
+    <div class="dark-bg">
         <ul>
             <div>
                 <li>
@@ -19,35 +19,45 @@
             <li>Contact</li>
         </ul>
     </div>
-    <div>
+    <div class="dark-bg">
         <ul>
-            <li>I bring you only the best bikes</li>
-            <li>Sourced from all over the world, refined in my shop by hand.</li>
+            <li id="hero_title">I bring you only the best bikes</li>
+            <li id="hero_sub">Sourced from all over the world, refined in my shop by hand.</li>
             <li><button class="button_header">Sign up</button></li>
+            <li id="hero_img"><img></li>
         </ul>
     </div>
     <div>
-        <img>
-    </div>
-    <div>
-        <h3>Gallery of Bikes </h3>
-        <ul>
-            <li><img src="images/Pinarello.jpg"><p>Pinarello</p></li>
-            <li><img src="images/Madone.jpg"><p>Madone</p></li>
-            <li><img src="images/Aeroad.jpg"><p>Aeroad</p></li>
-            <li><img src="images/C5.jpg"><p>C5</p></li>
+        <h3 id="info_header">Gallery of Bikes </h3>
+        <ul class="flex-gallery">
+            <li><img class="bike_imgs" src="images/Pinarello.jpg"><p class="center-p">Pinarello</p></li>
+            <li><img class="bike_imgs" src="images/Madone.jpg"><p class="center-p">Madone</p></li>
+            <li><img class="bike_imgs" src="images/Aeroad.jpg"><p class="center-p">Aeroad</p></li>
+            <li><img class="bike_imgs" src="images/C5.jpg"><p class="center-p">C5</p></li>
         </ul>
     </div>
-    <div>
+    <div id="quote_section">
         <p>Ride fast, ride slow, important thing is to ride</p>
-        <p>-Eddie Merckx</p>
+        <p id="quote_author">-Eddie Merckx</p>
     </div>
     <div>
-        <h5>You are missing out. Sign up for our newsletter.</h5>
-        <p>Sign up by clicking the button</p>
-        <button class="button_footer">Sign up</button>
-    <div>
-        Copyright © 2023 The Bike Shop
+        <div id="newsletter_div">
+            <div>
+            <ul class="newsletter_sign_up">
+                <li class="newsletter_li_header"><h5>You are missing out. Sign up for our newsletter.</h5></li>
+                <li class="newsletter_li newsletter_p">Sign up by clicking the button</p></li>
+            </ul>
+            </div>
+            <div class="button_footer_div">    
+                <button class="button_style">Sign up</button>
+            </div>
+        </div>
     </div>
+
+    <div class="footer_div">
+        <p class="footer_text dark-bg">Copyright © 2023 The Bike Shop</p>
+    </div>
+    </div>
+    
 </body>
 </html>
