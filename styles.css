@@ -4,7 +4,7 @@
     
 }
 #header_ul{
-    margin-right: 300px;
+    margin-right: 380px;
 }
 .header_li{
     display:block;
@@ -17,7 +17,7 @@
 #header_img {
     display:flex;
     justify-content: left;
-    padding-left: 280px;
+    padding-left: 380px;
     padding-top:20px;
     padding-bottom: 20px;
 }
@@ -37,7 +37,7 @@
     color: #F9FAF8;
     display:flex;
     justify-content: left;
-    padding-left: 280px;
+    padding-left: 380px;
     padding-top: 50px;
 }
 
@@ -46,7 +46,7 @@
     color: #E5E7EB;
     display:flex;
     justify-content: left;
-    padding-left: 280px;
+    padding-left: 380px;
     padding-bottom: 10px
 }
 
@@ -54,7 +54,7 @@
     display:flex;
     justify-content: right;
     padding-top: 45px;
-    padding-left: 70px;
+    padding-left: 80px;
 }
 
 #info_header {
@@ -171,5 +171,5 @@ li {
     margin-top: -20px;
 }
 .li_button_header {
-    padding-left: 280px;
+    padding-left: 380px;
 }
